@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvItem"
+    android:layout_width="100dp"
+    android:layout_height="120dp"
+    android:layout_margin="8dp"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:backgroundTint="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNametitleShp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aleo_light"
+                android:gravity="center"
+                android:text="@string/shop"
+                android:textColor="@color/darkBlue" />
+
+            <TextView
+                android:id="@+id/tvNameValueShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/aleo_light"
+                android:gravity="center"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPriceTitleShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/aleo_light"
+                android:gravity="center"
+                android:text="@string/price_coin_USD"
+                android:textColor="@color/darkBlue" />
+
+            <TextView
+                android:id="@+id/tvPriceValueShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/aleo_light"
+                android:gravity="center"
+                android:shadowColor="@color/black"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnGoShop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:backgroundTint="@color/backRC"
+                android:elevation="6dp"
+                android:insetTop="4dp"
+                android:insetBottom="4dp"
+                android:text="@string/to_shop"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                app:iconPadding="4dp" />
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

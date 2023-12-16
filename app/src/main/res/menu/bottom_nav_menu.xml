@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_review"
+        android:title="@string/title_review" />
+
+    <item
+        android:id="@+id/navigation_favorite_coin"
+        android:icon="@drawable/ic_favorite_coins"
+        android:title="@string/title_favorite_coins" />
+
+</menu>

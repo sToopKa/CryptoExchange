@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_review">Review of crypto coins</string>
+    <string name="title_favorite_coins">My coins</string>
+    <string name="delete">Delete</string>
+    <string name="dont_download">Data not loaded. Need to update</string>
+    <string name="all_coins">All coins</string>
+    <string name="crypto_news">CryptoNews</string>
+    <string name="rank">Rank</string>
+    <string name="name_coin">Name</string>
+    <string name="cod_coin">Code</string>
+    <string name="price_coin">Price</string>
+    <string name="_7">Change 7d</string>
+    <string name="_24">Change 24h</string>
+    <string name="_1">Change 1h</string>
+    <string name="cost_other_shop">Prices on different exchanges</string>
+    <string name="selected_coins">Selected coins</string>
+    <string name="reserch">Review</string>
+    <string name="cryptomonet">cryptoCoins</string>
+    <string name="price_coin_USD">Price USD</string>
+    <string name="shop">Exchange</string>
+    <string name="to_shop">To Exchange</string>
+    <string name="app_name">Review cryptoCoins</string>
+</resources>

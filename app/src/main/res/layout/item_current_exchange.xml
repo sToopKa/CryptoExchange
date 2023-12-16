@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/cvItem"
+    android:layout_width="190dp"
+    android:layout_height="150dp"
+    android:layout_margin="8dp"
+    android:elevation="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="6dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="190dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvNameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@font/aleo_light"
+            android:text="@string/name_coin"
+            android:textColor="@color/darkBlue"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvCodeTitle"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tvNameValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/aleo_light"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tvCodeValue"
+            app:layout_constraintStart_toEndOf="@+id/tvNameTitle" />
+
+        <TextView
+            android:id="@+id/tvCodeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aleo_light"
+            android:text="@string/cod_coin"
+            android:textColor="@color/darkBlue"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/tvTimeTiltle"
+            app:layout_constraintStart_toStartOf="@+id/tvNameTitle" />
+
+        <TextView
+            android:id="@+id/tvCodeValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aleo_light"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tvPriceValue"
+            app:layout_constraintStart_toStartOf="@+id/tvNameValue" />
+
+        <TextView
+            android:id="@+id/tvTimeTiltle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/aleo_light"
+            android:text="@string/price_coin_USD"
+            android:textColor="@color/darkBlue"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tvCodeTitle" />
+
+        <TextView
+            android:id="@+id/tvPriceValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/aleo_light"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tvCodeValue" />
+
+        <ImageView
+            android:id="@+id/imCoinIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

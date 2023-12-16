@@ -1,0 +1,25 @@
+<resources>
+    <string name="title_favorite_coins">Мои монеты</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="all_coins">Все монеты</string>
+    <string name="crypto_news">Новости по всем криптомонетам</string>
+    <string name="rank">Ранг</string>
+    <string name="name_coin">Название</string>
+    <string name="cod_coin">Код</string>
+    <string name="_7">Изменение 7 д</string>
+    <string name="_24">Изменение 24 ч</string>
+    <string name="_1">Изменение 1 ч</string>
+    <string name="selected_coins">Выбранные монеты</string>
+    <string name="reserch">Обзор</string>
+    <string name="cryptomonet">криптомонет</string>
+    <string name="price_coin_USD">Цена USD</string>
+    <string name="shop">Биржа</string>
+    <string name="to_shop">К бирже</string>
+    <string name="app_name">Обзор криптомонет</string>
+    <string name="title_review">Обзор криптомонет</string>
+    <string name="delete">Удалить</string>
+    <string name="dont_download">Данные не загружены. Надо обновить</string>
+    <string name="price_coin">Цена</string>
+    <string name="cost_other_shop">Цены на разных биржах</string>
+</resources>
